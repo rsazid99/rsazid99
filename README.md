@@ -17,17 +17,17 @@ Welcome to my GitHub! I'm a Robotics Engineer with a Master's in **Robotics and 
 - Exploring **Deep Learning** techniques to improve autonomous decision-making.
 
 ## 🔍 Featured Projects:
-- **[Early Level Sensor Fusion (RGB image, ToF Point Cloud, Radar Data)]([link](https://www.youtube.com/watch?v=7UMHYQPCJeg))**: Objects are detected from the RGB image, and the ToF Point Clouds are projected onto the image plane, providing their distance. Finally, the Velocity map is generated and projected onto the image plane by processing the raw ADC radar data, adding velocity information for the detected objects. The fusion is performed on the Jetson Orin NX platform, achieving an average of 11 FPS.
-- **[Autonomous Mobile Robot]([link](https://github.com/rsazid99/Autonomous-Mobile-Robot-Mr.-Hexo))**: Components: Livox Mid 360 Lidar, Intel Realsense d456, Pmd Flexx2 ToF Camera, Infenion BGT60TR13C Radar Sensor, Jetson Orin NX 16GB.
-- **[End-to-end Off-road Autonomous Navigation]([link](https://www.youtube.com/watch?v=sdXPNifMRAU))**: An end-to-end model has been trained using the Proximal Policy Optimization (PPO) algorithm, which takes the RGB-D image and vehicle state as input and directly outputs the vehicle steering angle and throttle.
+- **([Early Level Sensor Fusion (RGB image, ToF Point Cloud, Radar Data)](https://www.youtube.com/watch?v=7UMHYQPCJeg))**: Objects are detected from the RGB image, and the ToF Point Clouds are projected onto the image plane, providing their distance. Finally, the Velocity map is generated and projected onto the image plane by processing the raw ADC radar data, adding velocity information for the detected objects. The fusion is performed on the Jetson Orin NX platform, achieving an average of 11 FPS.
+- **([Autonomous Mobile Robot](https://github.com/rsazid99/Autonomous-Mobile-Robot-Mr.-Hexo))**: Components: Livox Mid 360 Lidar, Intel Realsense d456, Pmd Flexx2 ToF Camera, Infenion BGT60TR13C Radar Sensor, Jetson Orin NX 16GB.
+- **([End-to-end Off-road Autonomous Navigation](https://www.youtube.com/watch?v=sdXPNifMRAU))**: An end-to-end model has been trained using the Proximal Policy Optimization (PPO) algorithm, which takes the RGB-D image and vehicle state as input and directly outputs the vehicle steering angle and throttle.
   
 ## 🌱 Learning & Exploring:
 - Continuously learning more about **AI/ML** techniques for **robotics**.
 - Exploring cutting-edge technologies like **Vision Language Action Models** and **Foundation Models in Robot Learning**.
 
 ## 📫 How to Reach Me:
-- **LinkedIn**: ([https://www.linkedin.com/in/sazid-rahman-simanto/])
-- **Twitter**: ([https://twitter.com/yourhandle](https://x.com/rsazid77))
+- **([LinkedIn](https://www.linkedin.com/in/sazid-rahman-simanto/))**
+- **([Twitter](https://twitter.com/yourhandle](https://x.com/rsazid77))**
 ---
 
 Thanks for visiting my GitHub! 🚀 Let's connect and collaborate on exciting robotics and AI projects. 🤖✨
