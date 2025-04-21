@@ -15,11 +15,6 @@ Welcome to my GitHub! I'm a Robotics Engineer with a Master's in **Robotics and 
 - Building autonomous systems that leverage **sensor fusion** and **SLAM** for real-time navigation.
 - Integrating **LiDAR**, **RGB Image** and **radar data** for enhanced **environmental perception** in robotics.
 - Exploring **Advanced Deep Learning** techniques to improve autonomous decision-making.
-
-## 🔍 Featured Projects:
-- **[Early Level Sensor Fusion (RGB image, ToF Point Cloud, Radar Data)](https://www.youtube.com/watch?v=7UMHYQPCJeg)**: Objects are detected from the RGB image, and the ToF Point Clouds are projected onto the image plane, providing their distance. Finally, the Velocity map is generated and projected onto the image plane by processing the raw ADC radar data, adding velocity information for the detected objects. The fusion is performed on the Jetson Orin NX platform, achieving an average of 11 FPS.
-- **[Autonomous Mobile Robot](https://github.com/rsazid99/Autonomous-Mobile-Robot-Mr.-Hexo)**: Components: Livox Mid 360 Lidar, Intel Realsense d456, Pmd Flexx2 ToF Camera, Infenion BGT60TR13C Radar Sensor, Jetson Orin NX 16GB.
-- **[End-to-end Off-road Autonomous Navigation](https://www.youtube.com/watch?v=sdXPNifMRAU)**: An end-to-end model has been trained using the Proximal Policy Optimization (PPO) algorithm, which takes the RGB-D image and vehicle state as input and directly outputs the vehicle steering angle and throttle.
   
 ## 🌱 Learning & Exploring:
 - Continuously learning more about **AI/ML** techniques for **robotics**.
