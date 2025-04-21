@@ -1,6 +1,6 @@
 # Hi, I'm Sazid Rahman Simanto 👋
 
-## Robotics Engineer | Autonomous Systems Specialist | AI Enthusiast
+## Robotics Engineer | AI Enthusiast
 
 Welcome to my GitHub! I'm a Robotics Engineer with a Master's in **Robotics and Autonomous Systems**. I specialize in sensor fusion, SLAM, radar signal processing, and real-time systems. I love solving complex problems using a wide range of technologies.
 
