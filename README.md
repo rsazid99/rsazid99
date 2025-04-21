@@ -27,7 +27,7 @@ Welcome to my GitHub! I'm a Robotics Engineer with a Master's in **Robotics and 
 
 ## 📫 How to Reach Me:
 - **([LinkedIn](https://www.linkedin.com/in/sazid-rahman-simanto/))**
-- **([Twitter](https://twitter.com/yourhandle](https://x.com/rsazid77))**
+- **([Twitter](https://x.com/rsazid77))**
 ---
 
 Thanks for visiting my GitHub! 🚀 Let's connect and collaborate on exciting robotics and AI projects. 🤖✨
