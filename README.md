@@ -26,7 +26,7 @@ Welcome to my GitHub! I'm a Robotics Engineer with a Master's in **Robotics and 
 - Exploring cutting-edge technologies like **Vision Language Action Models** and **Foundation Models in Robot Learning**.
 
 ## 📫 How to Reach Me:
-- **LinkedIn**: ([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/sazid-rahman-simanto/))
+- **LinkedIn**: ([https://www.linkedin.com/in/sazid-rahman-simanto/])
 - **Twitter**: ([https://twitter.com/yourhandle](https://x.com/rsazid77))
 ---
 
