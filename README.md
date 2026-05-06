@@ -7,8 +7,8 @@ Welcome to my GitHub! I'm a Robotics Software Engineer with a Master's in **Robo
 🔧 **Technical Skills:**
 - **Programming Languages & Frameworks**: C++, Python, iOS (Swift), C, ROS2, PyTorch
 - **Robotics Skills**: Sensor Fusion, SLAM, Sensor Calibration
-- **Tools**: Git, Docker, CMake, LaTeX
-- **Hardware**: Texas Instruments TI AWR1843BOOST Radar, DCA 1000EVM FPGA, Intel Realsense Cameras D456, ToF Camera (Flexx2), Nvidia Jetson Orin NX/Nano
+- **Tools**: Git, Docker, CMake
+- **Experience with Sensors**: Texas Instruments AWR1843BOOST Radar, DCA 1000EVM FPGA, Intel Realsense Cameras D456, ToF Camera (Flexx2), Nvidia Jetson Orin NX/Nano
 
 ## 🚀 What I'm Currently Working On:
 - Building autonomous systems that leverage **sensor fusion** and **SLAM** for real-time navigation.
