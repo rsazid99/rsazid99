@@ -20,18 +20,19 @@ a {
   text-decoration: none;
 }
 
+/* Compact centered layout */
 .navbar,
 .hero-content,
 .section,
 footer p {
-  max-width: 1200px;
+  max-width: 980px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hero {
   min-height: 100vh;
-  padding: 28px 24px;
+  padding: 28px 22px;
   background:
     radial-gradient(circle at top left, rgba(34, 211, 238, 0.25), transparent 35%),
     radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.18), transparent 35%),
@@ -56,7 +57,7 @@ footer p {
 
 .nav-links {
   display: flex;
-  gap: 28px;
+  gap: 24px;
   list-style: none;
 }
 
@@ -74,9 +75,9 @@ footer p {
 .hero-content {
   min-height: calc(100vh - 90px);
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1fr 0.75fr;
   align-items: center;
-  gap: 60px;
+  gap: 44px;
 }
 
 .tag,
@@ -93,29 +94,29 @@ footer p {
 }
 
 h1 {
-  max-width: 850px;
+  max-width: 760px;
   color: #ffffff;
-  font-size: clamp(42px, 7vw, 76px);
+  font-size: clamp(38px, 5.5vw, 62px);
   line-height: 1;
-  letter-spacing: -2.5px;
+  letter-spacing: -2px;
 }
 
 .intro {
-  max-width: 700px;
-  margin-top: 28px;
+  max-width: 640px;
+  margin-top: 26px;
   color: #cbd5e1;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 34px;
+  gap: 14px;
+  margin-top: 32px;
 }
 
 .btn {
-  padding: 13px 24px;
+  padding: 12px 22px;
   border-radius: 999px;
   font-weight: 800;
   transition: 0.3s ease;
@@ -146,7 +147,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
-  margin-top: 28px;
+  margin-top: 26px;
 }
 
 .social-links a {
@@ -163,7 +164,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 28px;
+  gap: 26px;
 }
 
 .profile-image {
@@ -173,7 +174,7 @@ h1 {
 .profile-image::before {
   content: "";
   position: absolute;
-  inset: -12px;
+  inset: -10px;
   border-radius: 50%;
   background: linear-gradient(135deg, #22d3ee, #3b82f6, #14b8a6);
   opacity: 0.8;
@@ -184,8 +185,8 @@ h1 {
 .profile-image img {
   position: relative;
   z-index: 1;
-  width: 290px;
-  height: 290px;
+  width: 245px;
+  height: 245px;
   object-fit: cover;
   border: 5px solid rgba(255, 255, 255, 0.12);
   border-radius: 50%;
@@ -195,10 +196,10 @@ h1 {
 
 .hero-card {
   width: 100%;
-  max-width: 430px;
-  padding: 28px;
+  max-width: 370px;
+  padding: 24px;
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 30px;
+  border-radius: 28px;
   background: rgba(15, 23, 42, 0.78);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.36);
   backdrop-filter: blur(20px);
@@ -208,12 +209,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 
 .card-header h3 {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .card-header span {
@@ -226,7 +227,7 @@ h1 {
 }
 
 .status {
-  margin-bottom: 21px;
+  margin-bottom: 19px;
 }
 
 .status-top {
@@ -247,7 +248,7 @@ h1 {
 
 .bar {
   width: 100%;
-  height: 9px;
+  height: 8px;
   overflow: hidden;
   border-radius: 999px;
   background: #1e293b;
@@ -261,22 +262,22 @@ h1 {
 }
 
 .section {
-  padding: 96px 24px;
+  padding: 86px 22px;
 }
 
 .section h2 {
-  max-width: 850px;
-  margin-bottom: 24px;
+  max-width: 760px;
+  margin-bottom: 22px;
   color: #ffffff;
-  font-size: clamp(32px, 4vw, 48px);
+  font-size: clamp(30px, 3.5vw, 42px);
   line-height: 1.1;
-  letter-spacing: -1.5px;
+  letter-spacing: -1.3px;
 }
 
 .section > p {
-  max-width: 900px;
+  max-width: 760px;
   color: #cbd5e1;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .about {
@@ -288,8 +289,8 @@ h1 {
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
-  margin-top: 40px;
+  gap: 18px;
+  margin-top: 36px;
 }
 
 .stats div,
@@ -298,18 +299,18 @@ h1 {
 .timeline-item,
 .education-card {
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 24px;
+  border-radius: 22px;
   background: rgba(15, 23, 42, 0.72);
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.25);
 }
 
 .stats div {
-  padding: 26px;
+  padding: 22px;
 }
 
 .stats h3 {
   color: #22d3ee;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .stats p {
@@ -320,23 +321,23 @@ h1 {
 .grid,
 .projects {
   display: grid;
-  gap: 22px;
-  margin-top: 38px;
+  gap: 18px;
+  margin-top: 34px;
 }
 
 .grid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .projects {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
 }
 
 .card,
 .project-card,
 .timeline-item,
 .education-card {
-  padding: 28px;
+  padding: 24px;
   transition: 0.3s ease;
 }
 
@@ -344,7 +345,7 @@ h1 {
 .project-card:hover,
 .timeline-item:hover,
 .education-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-5px);
   border-color: rgba(34, 211, 238, 0.45);
 }
 
@@ -354,7 +355,7 @@ h1 {
 .education-card h3 {
   margin-bottom: 12px;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .card p,
@@ -365,7 +366,7 @@ h1 {
 }
 
 .project-top {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .project-top span {
@@ -375,7 +376,7 @@ h1 {
 }
 
 .tech {
-  margin: 18px 0;
+  margin: 16px 0;
   color: #67e8f9 !important;
   font-weight: 800;
 }
@@ -391,8 +392,8 @@ h1 {
 
 .timeline {
   display: grid;
-  gap: 22px;
-  margin-top: 38px;
+  gap: 18px;
+  margin-top: 34px;
 }
 
 .date {
@@ -408,7 +409,7 @@ h1 {
 }
 
 .education-card {
-  margin-top: 38px;
+  margin-top: 34px;
 }
 
 .contact {
@@ -433,12 +434,12 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
-  margin-top: 34px;
+  gap: 14px;
+  margin-top: 32px;
 }
 
 .contact-links a {
-  padding: 13px 24px;
+  padding: 12px 22px;
   border-radius: 999px;
   background: #22d3ee;
   color: #020617;
@@ -452,7 +453,7 @@ h1 {
 }
 
 footer {
-  padding: 30px 24px;
+  padding: 30px 22px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   color: #94a3b8;
   text-align: center;
@@ -460,6 +461,13 @@ footer {
 
 /* Tablet */
 @media (max-width: 1050px) {
+  .navbar,
+  .hero-content,
+  .section,
+  footer p {
+    max-width: 760px;
+  }
+
   .hero-content {
     grid-template-columns: 1fr;
     padding-top: 70px;
@@ -467,14 +475,6 @@ footer {
 
   .hero-right {
     align-items: flex-start;
-  }
-
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .projects {
-    grid-template-columns: 1fr;
   }
 
   .stats {
@@ -504,12 +504,17 @@ footer {
   }
 
   h1 {
+    font-size: clamp(36px, 12vw, 48px);
     letter-spacing: -1.4px;
   }
 
+  .intro {
+    font-size: 17px;
+  }
+
   .profile-image img {
-    width: 230px;
-    height: 230px;
+    width: 220px;
+    height: 220px;
   }
 
   .hero-card {
