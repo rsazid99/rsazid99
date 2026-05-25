@@ -20,9 +20,18 @@ a {
   text-decoration: none;
 }
 
+.navbar,
+.hero-content,
+.section,
+footer p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero {
   min-height: 100vh;
-  padding: 28px 8%;
+  padding: 28px 24px;
   background:
     radial-gradient(circle at top left, rgba(34, 211, 238, 0.25), transparent 35%),
     radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.18), transparent 35%),
@@ -252,7 +261,7 @@ h1 {
 }
 
 .section {
-  padding: 96px 8%;
+  padding: 96px 24px;
 }
 
 .section h2 {
@@ -443,7 +452,7 @@ h1 {
 }
 
 footer {
-  padding: 30px 8%;
+  padding: 30px 24px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   color: #94a3b8;
   text-align: center;
@@ -476,7 +485,7 @@ footer {
 /* Mobile */
 @media (max-width: 720px) {
   .hero {
-    padding: 24px 6%;
+    padding: 24px 18px;
   }
 
   .navbar {
@@ -508,7 +517,7 @@ footer {
   }
 
   .section {
-    padding: 76px 6%;
+    padding: 76px 18px;
   }
 
   .grid {
